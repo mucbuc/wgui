@@ -9,7 +9,6 @@ set_target_properties(Example PROPERTIES
 #	COMPILE_WARNING_AS_ERROR ON
 )
 set(CMAKE_THREAD_LIBS_INIT "-lpthread")
-add_compile_definitions(TARGET_HEADLESS)
 add_subdirectory(lib/dawn_wrapper)
 
 # glfw_wrapper
